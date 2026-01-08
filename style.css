@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #fcfcfc;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    background: #fff;
+}
+
+.navbar .Nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('./assets/hero-bg.png') center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-btns {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Buttons & Hover Effects */
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary {
+    background: #469165;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #c1eb08;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #022e57;
+    color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+    background: #c1eb08;
+    transform: translateY(-2px);
+}
+
+
+.banner .btn-third {
+    background: #f4f4f4;
+    color: #469165;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    padding: 8px 8px;
+}
+
+.btn-third:hover {
+    background: #c1eb08;
+    transform: translateY(-2px);
+}
+
+.banner h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+
+}
+
+.banner h1 span {
+    color: #30B868;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #f0f0f0;
+    line-height: 1.7;
+}
